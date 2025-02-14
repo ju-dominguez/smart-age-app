@@ -7,13 +7,12 @@ This project uses a **Keras model** exported from Google Teachable Machine (`ker
 ## 1. Prerequisites
 
 ### Python Version
-- We tested with **Python 3.9** or **3.11** on macOS (Apple Silicon).  
-- If you're using Windows or Intel macOS, the same Python version should still work, but you may need a different TensorFlow package (already handled via `requirements.txt` if it’s available for your OS/CPU).
+- We tested with **3.11** on macOS (Apple Silicon).  
+- If you're using Windows or Intel macOS, the same Python version should still work.
 
 ### Where to Download Python
 - **Windows**: [Python.org Downloads](https://www.python.org/downloads/windows/)  
-- **macOS**: [Python.org Downloads](https://www.python.org/downloads/macos/) or use Homebrew (`brew install python@3.9`)  
-- **Conda Users**: You can create an environment with a specific Python version, e.g. `conda create -n smart_age python=3.9`.
+- **macOS**: [Python.org Downloads](https://www.python.org/downloads/macos/) or use Homebrew (`brew install python@3.11`)  
 
 ---
 
@@ -23,7 +22,7 @@ This project uses a **Keras model** exported from Google Teachable Machine (`ker
 2. **Verify** you have the correct Python version:
    ```bash
    python --version
-If it doesn’t match the required version (e.g., 3.9.x), install or specify the path to that Python.
+If it doesn’t match the required version (e.g., 3.11.x), install or specify the path to that Python.
 
 3. **Create** a virtual environment (named venv):
    ```bash
