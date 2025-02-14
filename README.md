@@ -46,7 +46,8 @@ This will create a folder called venv with isolated Python packages.
 
 With your virtual environment active:
   ```bash
-source venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
 ```
 - This installs Flask, TensorFlow, Pillow, Numpy, etc.
 - If you encounter errors (especially on Apple Silicon), see “Troubleshooting” below.
