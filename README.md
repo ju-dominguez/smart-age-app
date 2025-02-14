@@ -84,6 +84,7 @@ python app.py
 4. Test in your browser by visiting http://127.0.0.1:5000/ to see a welcome message.
 
 5. Test the /predict route with curl or a tool like Postman:
+Open a new terminal window and run:
 ```bash
 curl -X POST -F "image=@test_images/IMG_6567.png" http://127.0.0.1:5000/predict
 ```
